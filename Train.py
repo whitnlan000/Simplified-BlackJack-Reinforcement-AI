@@ -5,11 +5,8 @@ from sklearn.model_selection import train_test_split
 import pandas
 
 #Weather
-import openmeteo_requests
 
 import pandas as pd
-import requests_cache
-from retry_requests import retry
 
 # Setup the Open-Meteo API client with cache and retry on error
 from sklearn.preprocessing import LabelEncoder
